@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+#hoverBox {
+  padding: 10px;
+  background-color: lightblue;
+  width: 200px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-content {
+  display: none;
+  margin-top: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+}

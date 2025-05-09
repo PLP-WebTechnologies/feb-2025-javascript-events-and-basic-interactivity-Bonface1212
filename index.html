@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Interactive Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JavaScript Interactive Playground</h1>
+
+  <!-- Event Handling -->
+  <section id="events">
+    <h2>1. Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <div id="hoverBox">Hover over me!</div>
+    <input type="text" id="keyInput" placeholder="Type something..." />
+  </section>
+
+  <!-- Interactive Elements -->
+  <section id="interactive">
+    <h2>2. Interactive Elements</h2>
+    <button id="colorChangeBtn">Change My Color</button>
+    <div id="gallery">
+      <img id="galleryImage" src="https://img.freepik.com/free-photo/zebra-wild_23-2151690195.jpg?t=st=1746814298~exp=1746817898~hmac=bc6465c6165bdedc1ee160abd642918133f2ca55fc1536b4e75f78a9ab5c5d25&w=740" alt="Gallery" />
+      <button id="nextImage">Next Image</button>
+    </div>
+    <div class="accordion">
+      <button class="accordion-toggle">Toggle Accordion</button>
+      <div class="accordion-content">Hidden content revealed!</div>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section id="form-validation">
+    <h2>3. Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <span id="passwordFeedback"></span>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
